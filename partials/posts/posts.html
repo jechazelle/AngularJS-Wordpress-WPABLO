@@ -1,0 +1,15 @@
+<div class="container">
+    
+    <div class="row">
+    
+        <div class="col-md-4" ng-repeat="post in posts">
+            <a ng-href="post/{{post.ID}}">
+                <h2 ng-bind-html="to_trusted(post.title)"></h2>
+            </a>
+            <p ng-bind-html="to_trusted(post.title)"></p>
+            <p><a ng-href="post/{{post.ID}}" role="button" href="#" class="btn btn-default">View details »</a></p>
+        </div>
+        
+    </div>
+    
+</div>

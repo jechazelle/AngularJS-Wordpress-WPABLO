@@ -1,0 +1,18 @@
+<nav id="navbar-app" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="title"><a ng-href="/" ng-class="{active:isActive('/')}">Home</a></li>
+          <li><a ng-href="/posts" ng-class="{active:isActive('/posts')}"><i class="fa fa-book"></i>Posts</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+</nav>

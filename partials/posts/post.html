@@ -1,0 +1,25 @@
+<div class="container">
+    
+    <div class="row">
+    
+        <div class="col-md-12">
+
+            
+            <a class="btn btn-primary" ng-href="posts">All Posts</a><br/><br/>
+            
+            <div class="jumbotron">
+                
+                <div class="container">
+                    
+                  <h1 ng-bind-html="to_trusted(myPostTitle)"></h1>
+                  <p ng-bind-html="to_trusted(myPostContent)"></p>
+                  <p ng-bind-html="to_trusted(myPostAuthor)"></p>
+                
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>
