@@ -9,6 +9,8 @@ WPABLO - What is it ?
 
 I wanted to provide a wordpress theme angularjs having a smart structure.
 
+[DEMO](http://wpablo.jeremiechazelle.fr)
+
 + WP : WordPress
 + A  : AngularJS
 + B  : Bootstrap
@@ -17,7 +19,7 @@ I wanted to provide a wordpress theme angularjs having a smart structure.
 
 
 AngularJS : 
-+ Use AngularJS with styleguide - John Papa (https://github.com/johnpapa/angular-styleguide)
++ Use AngularJS with styleguide - [John Papa](https://github.com/johnpapa/angular-styleguide)
 
 CSS : 
 + Use SMACSS method (Scalable and Modular Architecture for CSS)
@@ -50,7 +52,7 @@ Install Instructions
 =====================
 
 + Download / Pull All Files in your themes directory
-+ Download/Install the [JSON API WordPress Plugin](http://wordpress.org/plugins/json-rest-api/) (by Ryan McCue)
++ Download/Install the [JSON API WordPress Plugin](http://wordpress.org/plugins/json-rest-api/)
 + Activate your Theme
 + You can choose your configuration (production (by default) or developpement, minify or not) => Rename the file function_dev.php or function_prod.php to function.php 
 + Enjoy !
