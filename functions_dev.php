@@ -17,6 +17,8 @@ function my_scripts() {
         wp_register_script('newsController', get_bloginfo('template_directory').'/js/controllers/newsController.js', array(), null, false);
         wp_register_script('errorController', get_bloginfo('template_directory').'/js/controllers/errorController.js', array(), null, false);
         
+        wp_register_script('valueDefine', get_bloginfo('template_directory').'/js/define/valueDefine.js', array(), null, false);
+
         wp_register_script('postsFactory', get_bloginfo('template_directory').'/js/factory/postsFactory.js', array(), null, false);
         
         wp_enqueue_script('angularjs');
@@ -32,6 +34,8 @@ function my_scripts() {
         wp_enqueue_script('postController');
         wp_enqueue_script('newsController');
         wp_enqueue_script('errorController');
+        
+        wp_enqueue_script('valueDefine');
         
         wp_enqueue_script('postsFactory');
         

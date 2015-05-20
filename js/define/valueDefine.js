@@ -5,5 +5,5 @@
  */
 
 angular
-    .module('WPAB')
-    .value('myThing', 'weee');
+    .module('WPABLO')
+    .value('params1', 'myValue');

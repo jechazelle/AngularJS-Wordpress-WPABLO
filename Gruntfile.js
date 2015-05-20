@@ -88,6 +88,7 @@ module.exports = function(grunt) {
                     'js/controllers/newsController.js',
                     'js/controllers/postsController.js',
                     'js/controllers/postController.js',
+                    'js/define/valueDefine.js',
                     'js/factory/postsFactory.js'
 
                 ],
